@@ -1,0 +1,19 @@
+esprit_pidev_homepage:
+    path:     /GoVoyage/Home
+    defaults: { _controller: EspritPIDEVBundle:Default:index }
+
+esprit_pidev_hottours:
+    path:     /GoVoyage/Hot_tours
+    defaults: { _controller: EspritPIDEVBundle:Default:hottours }
+    
+esprit_pidev_specialoffers:
+    path:     /GoVoyage/Special_offers
+    defaults: { _controller: EspritPIDEVBundle:Default:specialoffers }
+    
+esprit_pidev_blog:
+    path:     /GoVoyage/Blog
+    defaults: { _controller: EspritPIDEVBundle:Default:blog }
+    
+esprit_pidev_account:
+    path:     /GoVoyage/Account
+    defaults: { _controller: EspritPIDEVBundle:Default:account }
